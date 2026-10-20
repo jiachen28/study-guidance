@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light"><title>Study Guidance | University Task Advisor</title>
+<link rel="stylesheet" href="/static/styles.css"><script src="/static/app.js" defer></script>
+</head>
+<body>
+<div class="site">
+<header class="topbar"><a class="wordmark" href="/" aria-label="Study Guidance home"><span class="mark">SG</span><span>STUDY GUIDANCE</span></a><div class="topright"><span class="status"><span class="statusdot"></span>Private local session</span><span class="tag">Research prototype</span></div></header>
+<main>
+<section class="hero"><div class="eyebrow">DECIDE · VERIFY · LEARN</div><h1>Find the right kind of assistance<br><span>for your next study task.</span></h1><p>Describe what you need to do. Get a tailored recommendation, a simple verification plan and relevant guidance on responsible use.</p></section>
+<section class="workspace">
+<div class="leftpane">
+<div class="pane-title"><span class="step">01</span><h2>Describe your task</h2></div>
+<form id="taskForm"><label for="task">What are you working on?</label><textarea id="task" name="task" maxlength="2500" minlength="5" required placeholder="e.g. My Django tests started failing after a dependency update. Help me identify the cause and design a reliable test..."></textarea><div class="inputfoot"><span>Be specific about the goal and restrictions. Do not enter personal or confidential information.</span><span id="count">0 / 2500</span></div><button type="submit" id="submit"><span id="btnText">Get recommendation</span><span aria-hidden="true">↗</span></button></form>
+<div class="examples"><div class="subheading">TRY AN EXAMPLE</div><button class="example" data-text="I need to debug a Python function and write boundary-case unit tests.">Debug Python code <span>↗</span></button><button class="example" data-text="I am preparing a literature review. How should I find primary research papers and check citations?">Plan a literature review <span>↗</span></button><button class="example" data-text="Our group needs to allocate tasks and coordinate three project deadlines.">Organise group work <span>↗</span></button><button class="example" data-text="My closed-book exam explicitly prohibits AI assistance. Can I use AI to answer the live questions?">Check a restricted exam <span>↗</span></button></div>
+</div>
+<div class="rightpane"><div class="pane-title"><span class="step">02</span><h2>Your recommendation</h2></div>
+<div id="empty" class="empty"><div class="emptyicon">◎</div><h3>Clear next steps, not just a category.</h3><p>We'll look at your task, assess its risks, identify a suitable form of help and suggest how to verify the result.</p><div class="minirow"><span>01 · Category</span><span>02 · Safe use</span><span>03 · Sources</span></div></div>
+<div id="loading" class="loading hidden" role="status"><div class="spinner"></div><h3>Reviewing your task</h3><p>The local language model is generating a recommendation. The first request may take a little longer.</p></div>
+<div id="error" class="error hidden" role="alert"></div>
+<div id="result" class="result hidden" aria-live="polite"><div class="result-top"><div><div class="smallcaps">RECOMMENDATION</div><h3 id="recommendation"></h3><p id="toolDescription"></p></div><span id="category" class="category"></span></div><div class="riskline"><span class="riskicon">◈</span><div><strong id="riskLevel"></strong><p id="riskMessage"></p></div></div>
+<div class="result-section"><h4>Suitable tools and methods</h4><ul id="tools"></ul></div>
+<div class="result-section"><h4>Why this fits</h4><p id="explanation"></p></div>
+<div class="result-section"><h4>How to verify</h4><p id="verification"></p><ol id="steps"></ol></div>
+<div class="result-section"><h4>Limitations</h4><p id="limitations"></p></div>
+<details class="sources"><summary>Supporting references <span id="referenceCount"></span></summary><div id="references"></div></details>
+<div class="source-note">Decision source: <span id="decisionSource"></span>. Recommendations are advisory and should be checked against your course requirements.</div><button type="button" class="secondary" id="reset">Start another task ↗</button></div>
+</div>
+</section>
+</main>
+<footer><span>Study Guidance · Student research application</span><span>Local inference · Human review required</span></footer>
+</div>
+</body></html>
