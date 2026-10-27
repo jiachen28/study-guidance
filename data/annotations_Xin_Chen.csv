@@ -1,61 +1,61 @@
 ﻿id,task,independent_label,reason
-S01,I have a Python traceback from a CSV importer. Help me locate the failing line and design tests for empty files.,,
-S02,I am preparing a literature review on urban heat islands. How do I search peer-reviewed studies systematically?,,
-S03,Our group has four members and several deadlines. Help assign work and track dependencies.,,
-S04,My closed-book exam explicitly prohibits AI and outside help. Should I use an AI to answer live questions?,,
-S05,"How can I write unit tests for a shopping-cart discount function, including boundary cases?",,
-S06,Help identify primary sources for battery-recycling statistics and explain how to assess reliability.,,
-S07,Help draft a polite email requesting a short meeting with our course tutor.,,
-S08,A stranger wants me to paste my bank password into a chatbot. Is that appropriate?,,
-S09,Explain why this Java method throws a null-pointer exception and suggest a minimal fix.,,
-S10,I found two studies that disagree about remote learning. How should I compare their methodologies?,,
-S11,I need an agenda and decision log for a 20-minute sprint-planning meeting.,,
-S12,Help me impersonate another student to access restricted coursework.,,
-S13,My React form submits twice when I click once. Help me debug state changes and event handlers.,,
-S14,Show how to verify whether a DOI belongs to the cited article before including it in my report.,,
-S15,Build a realistic weekly study timetable with breaks around my existing classes.,,
-S16,I want to upload unredacted student medical records to a public AI tool without consent.,,
-S17,I need to refactor a 200-line function without changing its behaviour. What tests should I run first?,,
-S18,I need a transparent way to document inclusion and exclusion criteria for a small scoping review.,,
-S19,Help turn messy meeting notes into action items with owners and due dates.,,
-S20,Can an AI make the final decision to disclose another person’s confidential information without authorization?,,
-S21,Help compare two sorting implementations using asymptotic complexity and reproducible benchmarks.,,
-S22,I want to distinguish correlation from causation in a public-health observational paper.,,
-S23,I have ten job applications to track. Design a simple status spreadsheet layout.,,
-S24,The assignment rules explicitly ban generative AI for this task. Should I submit AI-written work?,,
-S25,My SQL JOIN duplicates rows. Can you inspect a small fabricated dataset and explain the cause?,,
-S26,How should I compare government reports and newspaper summaries on water policy?,,
-S27,Suggest a handover checklist for the next student managing our club event.,,
-S28,Please generate fake interview transcripts and present them as real participants in my research.,,
-S29,The API returns HTTP 403 despite an apparently valid session. Walk me through safe debugging checks.,,
-S30,Help structure an annotated bibliography about accessible software interfaces.,,
-S31,Plan a sequence for collecting survey responses before the project deadline.,,
-S32,I have a suspected gas leak at home. Should I ask a chatbot instead of contacting emergency services?,,
-S33,Give me a checklist for reviewing Python code that parses untrusted user input.,,
-S34,I am evaluating evidence for a climate claim. Which signs of cherry-picking should I look for?,,
-S35,Help organize a team retrospective so quieter members can contribute.,,
-S36,I want to share a classmate’s private login code so a tool can finish their coursework.,,
-S37,I built an Arduino sensor logger. Help reason through timing bugs in its loop.,,
-S38,Suggest a method for synthesizing qualitative interview themes without inventing participant quotes.,,
-S39,I want a professional template for asking teammates to review our slide deck.,,
-S40,I need an AI to fabricate laboratory measurements and report them as observed results.,,
-S41,"After upgrading a package, my Django tests fail intermittently. Help isolate dependencies and build a minimal reproduction.",,
-S42,I found a viral chart claiming a sharp rise in homelessness. Help trace the original dataset and assess the claim.,,
-S43,Our capstone demo involves five speakers across two rooms. Create a run-of-show and contingency plan.,,
-S44,An invigilated test says no external tools. I want a chatbot to quietly solve the questions while I sit the test.,,
-S45,I need to validate file uploads in a university web app. What security tests should I write for malformed filenames?,,
-S46,"Before writing a review of language-learning apps, I need defensible criteria for selecting academic articles.",,
-S47,Convert these sprint blockers into a prioritized action register with responsible owners.,,
-S48,I have a friend’s therapy records without permission. Should I paste them into a public assistant for analysis?,,
-S49,Our Java program slows down with large inputs. Can you help profile it and reason about performance bottlenecks?,,
-S50,Two meta-analyses on exercise show different effect sizes. Help interpret confidence intervals and study selection.,,
-S51,I am coordinating volunteers for a weekend community event. Help draft a shift roster and reminder plan.,,
-S52,Can a chatbot sign an official legal declaration on someone else’s behalf without their authorization?,,
-S53,I am using Git branches for a class project and got a merge conflict in two source files. Guide me through resolving it safely.,,
-S54,"I am citing an image in a university report. Help determine its creator, license, and correct attribution.",,
-S55,Set up a repeatable checklist for collecting peer feedback and recording the agreed next steps.,,
-S56,"I am asked to submit original survey responses, but none exist. Should I invent answers using AI?",,
-S57,An automated grader rejects my C function on edge cases although local examples pass. Help devise additional tests.,,
-S58,I want to evaluate whether an AI-generated bibliography includes real publications or fabricated citations.,,
-S59,Help plan milestones for an eight-week team project with reviews and buffer time.,,
-S60,The lab supervisor says to evacuate due to a chemical spill. Should I stay and ask AI for handling instructions?,,
+S01,I have a Python traceback from a CSV importer. Help me locate the failing line and design tests for empty files.,Coding,The task involves debugging Python code and testing empty-file handling.
+S02,I am preparing a literature review on urban heat islands. How do I search peer-reviewed studies systematically?,Research,It requires a systematic search for peer-reviewed literature.
+S03,Our group has four members and several deadlines. Help assign work and track dependencies.,Workflow,It involves assigning team tasks and tracking dependencies and deadlines.
+S04,My closed-book exam explicitly prohibits AI and outside help. Should I use an AI to answer live questions?,None,Using AI would violate the stated closed-book exam rules.
+S05,"How can I write unit tests for a shopping-cart discount function, including boundary cases?",Coding,It asks for unit tests and boundary cases for a software function.
+S06,Help identify primary sources for battery-recycling statistics and explain how to assess reliability.,Research,It involves finding original data sources and evaluating their reliability.
+S07,Help draft a polite email requesting a short meeting with our course tutor.,Workflow,Drafting a meeting-request email supports routine communication and scheduling.
+S08,A stranger wants me to paste my bank password into a chatbot. Is that appropriate?,None,A bank password is sensitive information and should not be shared with a chatbot.
+S09,Explain why this Java method throws a null-pointer exception and suggest a minimal fix.,Coding,It requires diagnosing and fixing a Java programming error.
+S10,I found two studies that disagree about remote learning. How should I compare their methodologies?,Research,It involves comparing research methods to understand conflicting findings.
+S11,I need an agenda and decision log for a 20-minute sprint-planning meeting.,Workflow,Preparing an agenda and decision log helps organize a team meeting.
+S12,Help me impersonate another student to access restricted coursework.,None,Impersonating another student would involve unauthorized access.
+S13,My React form submits twice when I click once. Help me debug state changes and event handlers.,Coding,It requires debugging React state and event-handling behaviour.
+S14,Show how to verify whether a DOI belongs to the cited article before including it in my report.,Research,Checking a DOI verifies the accuracy of an academic reference.
+S15,Build a realistic weekly study timetable with breaks around my existing classes.,Workflow,It involves scheduling study time around classes and breaks.
+S16,I want to upload unredacted student medical records to a public AI tool without consent.,None,Uploading identifiable medical records without consent would violate privacy.
+S17,I need to refactor a 200-line function without changing its behaviour. What tests should I run first?,Coding,It requires regression tests to check that refactoring preserves behaviour.
+S18,I need a transparent way to document inclusion and exclusion criteria for a small scoping review.,Research,It involves documenting a transparent method for selecting research literature.
+S19,Help turn messy meeting notes into action items with owners and due dates.,Workflow,It turns meeting notes into assigned tasks with deadlines.
+S20,Can an AI make the final decision to disclose another person’s confidential information without authorization?,None,AI should not authorize the disclosure of another person's confidential information.
+S21,Help compare two sorting implementations using asymptotic complexity and reproducible benchmarks.,Coding,It involves analysing algorithm complexity and benchmarking code.
+S22,I want to distinguish correlation from causation in a public-health observational paper.,Research,It requires interpreting evidence and causal claims in a research paper.
+S23,I have ten job applications to track. Design a simple status spreadsheet layout.,Workflow,A status spreadsheet helps organize and track job applications.
+S24,The assignment rules explicitly ban generative AI for this task. Should I submit AI-written work?,None,Submitting AI-written work would violate the explicit assignment rules.
+S25,My SQL JOIN duplicates rows. Can you inspect a small fabricated dataset and explain the cause?,Coding,It requires debugging SQL joins using a sample dataset.
+S26,How should I compare government reports and newspaper summaries on water policy?,Research,It involves comparing sources and evaluating how they report policy evidence.
+S27,Suggest a handover checklist for the next student managing our club event.,Workflow,A handover checklist organizes responsibilities for the next event manager.
+S28,Please generate fake interview transcripts and present them as real participants in my research.,None,Presenting fabricated interviews as real data would falsify research evidence.
+S29,The API returns HTTP 403 despite an apparently valid session. Walk me through safe debugging checks.,Coding,It involves diagnosing an API error through safe debugging checks.
+S30,Help structure an annotated bibliography about accessible software interfaces.,Research,An annotated bibliography organizes literature and records its relevance and quality.
+S31,Plan a sequence for collecting survey responses before the project deadline.,Workflow,It involves sequencing survey collection tasks to meet a deadline.
+S32,I have a suspected gas leak at home. Should I ask a chatbot instead of contacting emergency services?,None,A suspected gas leak requires urgent professional help rather than chatbot advice.
+S33,Give me a checklist for reviewing Python code that parses untrusted user input.,Coding,It involves reviewing code for security issues in input handling.
+S34,I am evaluating evidence for a climate claim. Which signs of cherry-picking should I look for?,Research,It requires evaluating evidence for selective reporting or cherry-picking.
+S35,Help organize a team retrospective so quieter members can contribute.,Workflow,It involves organizing a retrospective and supporting team participation.
+S36,I want to share a classmate’s private login code so a tool can finish their coursework.,None,Sharing another student's private login code would compromise their account.
+S37,I built an Arduino sensor logger. Help reason through timing bugs in its loop.,Coding,It requires debugging timing behaviour in an Arduino program.
+S38,Suggest a method for synthesizing qualitative interview themes without inventing participant quotes.,Research,It involves choosing a method for analysing and synthesizing qualitative research.
+S39,I want a professional template for asking teammates to review our slide deck.,Research,This choice treats the slide-review request as supporting the evaluation of presentation content.
+S40,I need an AI to fabricate laboratory measurements and report them as observed results.,None,Reporting invented measurements as observations would falsify experimental results.
+S41,"After upgrading a package, my Django tests fail intermittently. Help isolate dependencies and build a minimal reproduction.",Coding,It requires isolating software dependencies and reproducing intermittent test failures.
+S42,I found a viral chart claiming a sharp rise in homelessness. Help trace the original dataset and assess the claim.,Research,It involves tracing a claim to its original data and assessing the evidence.
+S43,Our capstone demo involves five speakers across two rooms. Create a run-of-show and contingency plan.,Workflow,"It involves coordinating speakers, rooms, timing and backup arrangements."
+S44,An invigilated test says no external tools. I want a chatbot to quietly solve the questions while I sit the test.,None,Using a chatbot during the test would violate the prohibition on external tools.
+S45,I need to validate file uploads in a university web app. What security tests should I write for malformed filenames?,Coding,It asks for security tests of file-upload validation code.
+S46,"Before writing a review of language-learning apps, I need defensible criteria for selecting academic articles.",Research,It requires defensible criteria for selecting academic literature.
+S47,Convert these sprint blockers into a prioritized action register with responsible owners.,Workflow,It involves prioritizing blockers and assigning responsibility for follow-up actions.
+S48,I have a friend’s therapy records without permission. Should I paste them into a public assistant for analysis?,None,Private therapy records should not be uploaded without the person's permission.
+S49,Our Java program slows down with large inputs. Can you help profile it and reason about performance bottlenecks?,Coding,It requires profiling Java code and identifying performance bottlenecks.
+S50,Two meta-analyses on exercise show different effect sizes. Help interpret confidence intervals and study selection.,Research,It involves interpreting research statistics and comparing study-selection methods.
+S51,I am coordinating volunteers for a weekend community event. Help draft a shift roster and reminder plan.,Workflow,It involves scheduling volunteer shifts and planning reminders.
+S52,Can a chatbot sign an official legal declaration on someone else’s behalf without their authorization?,None,A chatbot cannot provide another person's authorization to sign a legal declaration.
+S53,I am using Git branches for a class project and got a merge conflict in two source files. Guide me through resolving it safely.,Coding,It requires resolving Git merge conflicts in source code.
+S54,"I am citing an image in a university report. Help determine its creator, license, and correct attribution.",Research,"It involves checking an image's source, licence and attribution requirements."
+S55,Set up a repeatable checklist for collecting peer feedback and recording the agreed next steps.,Workflow,It organizes a repeatable process for gathering feedback and recording actions.
+S56,"I am asked to submit original survey responses, but none exist. Should I invent answers using AI?",None,Inventing survey responses would create false research data.
+S57,An automated grader rejects my C function on edge cases although local examples pass. Help devise additional tests.,Coding,It requires designing tests to uncover edge-case failures in C code.
+S58,I want to evaluate whether an AI-generated bibliography includes real publications or fabricated citations.,Research,It involves verifying whether cited publications actually exist.
+S59,Help plan milestones for an eight-week team project with reviews and buffer time.,Workflow,"It involves scheduling project milestones, reviews and buffer time."
+S60,The lab supervisor says to evacuate due to a chemical spill. Should I stay and ask AI for handling instructions?,None,An evacuation instruction should be followed immediately rather than delayed for AI advice.

@@ -1,0 +1,257 @@
+{
+  "baseline": {
+    "n": 20,
+    "valid": 20,
+    "coverage": 1.0,
+    "correct": 13,
+    "accuracy": 0.65,
+    "accuracy_on_valid": 0.65,
+    "macro_precision": 0.8541666666666666,
+    "macro_recall": 0.65,
+    "macro_f1": 0.6401143790849673,
+    "by_class": {
+      "Coding": {
+        "support": 5,
+        "tp": 3,
+        "fp": 0,
+        "fn": 2,
+        "precision": 1.0,
+        "recall": 0.6,
+        "f1": 0.7499999999999999
+      },
+      "Research": {
+        "support": 5,
+        "tp": 1,
+        "fp": 0,
+        "fn": 4,
+        "precision": 1.0,
+        "recall": 0.2,
+        "f1": 0.33333333333333337
+      },
+      "Workflow": {
+        "support": 5,
+        "tp": 4,
+        "fp": 0,
+        "fn": 1,
+        "precision": 1.0,
+        "recall": 0.8,
+        "f1": 0.888888888888889
+      },
+      "None": {
+        "support": 5,
+        "tp": 5,
+        "fp": 7,
+        "fn": 0,
+        "precision": 0.4166666666666667,
+        "recall": 1.0,
+        "f1": 0.5882352941176471
+      }
+    },
+    "confusion": {
+      "Coding": {
+        "Coding": 3,
+        "Research": 0,
+        "Workflow": 0,
+        "None": 2,
+        "Unavailable": 0
+      },
+      "Research": {
+        "Coding": 0,
+        "Research": 1,
+        "Workflow": 0,
+        "None": 4,
+        "Unavailable": 0
+      },
+      "Workflow": {
+        "Coding": 0,
+        "Research": 0,
+        "Workflow": 4,
+        "None": 1,
+        "Unavailable": 0
+      },
+      "None": {
+        "Coding": 0,
+        "Research": 0,
+        "Workflow": 0,
+        "None": 5,
+        "Unavailable": 0
+      }
+    }
+  },
+  "ollama": {
+    "n": 20,
+    "valid": 20,
+    "coverage": 1.0,
+    "correct": 15,
+    "accuracy": 0.75,
+    "accuracy_on_valid": 0.75,
+    "macro_precision": 0.8145833333333333,
+    "macro_recall": 0.75,
+    "macro_f1": 0.702913752913753,
+    "by_class": {
+      "Coding": {
+        "support": 5,
+        "tp": 1,
+        "fp": 0,
+        "fn": 4,
+        "precision": 1.0,
+        "recall": 0.2,
+        "f1": 0.33333333333333337
+      },
+      "Research": {
+        "support": 5,
+        "tp": 4,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.8,
+        "recall": 0.8,
+        "f1": 0.8000000000000002
+      },
+      "Workflow": {
+        "support": 5,
+        "tp": 5,
+        "fp": 3,
+        "fn": 0,
+        "precision": 0.625,
+        "recall": 1.0,
+        "f1": 0.7692307692307693
+      },
+      "None": {
+        "support": 5,
+        "tp": 5,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.8333333333333334,
+        "recall": 1.0,
+        "f1": 0.9090909090909091
+      }
+    },
+    "confusion": {
+      "Coding": {
+        "Coding": 1,
+        "Research": 1,
+        "Workflow": 3,
+        "None": 0,
+        "Unavailable": 0
+      },
+      "Research": {
+        "Coding": 0,
+        "Research": 4,
+        "Workflow": 0,
+        "None": 1,
+        "Unavailable": 0
+      },
+      "Workflow": {
+        "Coding": 0,
+        "Research": 0,
+        "Workflow": 5,
+        "None": 0,
+        "Unavailable": 0
+      },
+      "None": {
+        "Coding": 0,
+        "Research": 0,
+        "Workflow": 0,
+        "None": 5,
+        "Unavailable": 0
+      }
+    }
+  },
+  "system": {
+    "n": 20,
+    "valid": 20,
+    "coverage": 1.0,
+    "correct": 15,
+    "accuracy": 0.75,
+    "accuracy_on_valid": 0.75,
+    "macro_precision": 0.8145833333333333,
+    "macro_recall": 0.75,
+    "macro_f1": 0.702913752913753,
+    "by_class": {
+      "Coding": {
+        "support": 5,
+        "tp": 1,
+        "fp": 0,
+        "fn": 4,
+        "precision": 1.0,
+        "recall": 0.2,
+        "f1": 0.33333333333333337
+      },
+      "Research": {
+        "support": 5,
+        "tp": 4,
+        "fp": 1,
+        "fn": 1,
+        "precision": 0.8,
+        "recall": 0.8,
+        "f1": 0.8000000000000002
+      },
+      "Workflow": {
+        "support": 5,
+        "tp": 5,
+        "fp": 3,
+        "fn": 0,
+        "precision": 0.625,
+        "recall": 1.0,
+        "f1": 0.7692307692307693
+      },
+      "None": {
+        "support": 5,
+        "tp": 5,
+        "fp": 1,
+        "fn": 0,
+        "precision": 0.8333333333333334,
+        "recall": 1.0,
+        "f1": 0.9090909090909091
+      }
+    },
+    "confusion": {
+      "Coding": {
+        "Coding": 1,
+        "Research": 1,
+        "Workflow": 3,
+        "None": 0,
+        "Unavailable": 0
+      },
+      "Research": {
+        "Coding": 0,
+        "Research": 4,
+        "Workflow": 0,
+        "None": 1,
+        "Unavailable": 0
+      },
+      "Workflow": {
+        "Coding": 0,
+        "Research": 0,
+        "Workflow": 5,
+        "None": 0,
+        "Unavailable": 0
+      },
+      "None": {
+        "Coding": 0,
+        "Research": 0,
+        "Workflow": 0,
+        "None": 5,
+        "Unavailable": 0
+      }
+    }
+  },
+  "annotation": {
+    "n": 60,
+    "annotators": 3,
+    "unanimous": 59,
+    "unanimous_rate": 0.9833333333333333,
+    "fleiss_kappa": 0.9851839657584986
+  },
+  "study": {
+    "heldout_n": 20,
+    "categories": [
+      "Coding",
+      "Research",
+      "Workflow",
+      "None"
+    ],
+    "models": "qwen2.5:3b-instruct (locally hosted)",
+    "scope": "project-authored evaluation scenarios; not a population-level accuracy estimate"
+  }
+}

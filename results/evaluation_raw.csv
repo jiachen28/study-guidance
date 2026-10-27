@@ -1,0 +1,121 @@
+id,task,baseline,llm_category,system_category,source,error,model,utc_timestamp,run_fingerprint,raw_response
+S41,"After upgrading a package, my Django tests fail intermittently. Help isolate dependencies and build a minimal reproduction.",Coding,Workflow,Workflow,local model,,qwen2.5:3b-instruct,2026-10-27T05:28:13.421903+00:00,da33bd4386479833f5b2,"{
+  ""category"": ""Workflow"",
+  ""explanation"": ""The task involves diagnosing and isolating issues with Django tests after a package upgrade, which requires a structured approach to debugging and testing. This includes setting up a minimal reproduction of the issue and verifying the solution."",
+  ""verification"": ""Human verification should be conducted by a developer to confirm the reproduction steps and the effectiveness of the solution. This can involve running the tests and checking if the issue persists."",
+  ""limitations"": ""The solution should be verified by a human developer to ensure it is effective and does not introduce new issues. The reproduction steps should be thoroughly tested to confirm the issue is resolved.""
+}"
+S42,I found a viral chart claiming a sharp rise in homelessness. Help trace the original dataset and assess the claim.,None,Research,Research,local model,,qwen2.5:3b-instruct,2026-10-27T05:28:21.902197+00:00,da33bd4386479833f5b2,"{
+  ""category"": ""Research"",
+  ""explanation"": ""The student is looking for the original dataset and assessing a claim about a viral chart. This involves finding, comparing, and evaluating sources related to the dataset and the claim."",
+  ""verification"": ""To verify the student's research, a human instructor should review the dataset and the claim assessment to ensure it aligns with academic standards and ethical guidelines."",
+  ""limitations"": ""The student should be cautious about the reliability and validity of the original dataset and the claim, and should critically evaluate the information found.""
+}"
+S43,Our capstone demo involves five speakers across two rooms. Create a run-of-show and contingency plan.,Workflow,Workflow,Workflow,local model,,qwen2.5:3b-instruct,2026-10-27T05:28:30.656588+00:00,da33bd4386479833f5b2,"{
+  ""category"": ""Workflow"",
+  ""explanation"": ""The task involves creating a run-of-show and contingency plan for a capstone demo with multiple speakers in different rooms. This requires scheduling, coordinating, and drafting routine messages."",
+  ""verification"": ""This task can be verified through human checks such as reviewing the final run-of-show and contingency plan for completeness, accuracy, and adherence to the capstone demo requirements. It should also include a checklist for all speakers and rooms."",
+  ""limitations"": ""The verification process may require additional human input to ensure all aspects of the run-of-show and contingency plan are comprehensive and feasible.""
+}"
+S44,An invigilated test says no external tools. I want a chatbot to quietly solve the questions while I sit the test.,None,None,None,policy rule,,qwen2.5:3b-instruct,2026-10-27T05:28:40.673796+00:00,da33bd4386479833f5b2,"{
+  ""category"": ""None"",
+  ""explanation"": ""The task involves using an AI-assisted chatbot during an invigilated test, which is expressly prohibited as per the rules stated in [R13]. Using such tools during an invigilated test is considered cheating and is not allowed."",
+  ""verification"": ""To verify this, a human educator or institution official should be consulted to confirm the rules and regulations regarding the use of AI during invigilated tests."",
+  ""limitations"": ""The use of AI during an invigilated test is strictly prohibited. Any attempt to use such tools would result in severe academic penalties, including failure of the test and possible academic disciplinary actions.""
+}"
+S45,I need to validate file uploads in a university web app. What security tests should I write for malformed filenames?,None,Workflow,Workflow,local model,,qwen2.5:3b-instruct,2026-10-27T05:28:49.690724+00:00,da33bd4386479833f5b2,"{
+  ""category"": ""Workflow"",
+  ""explanation"": ""The task involves scheduling and coordinating security tests for validating file uploads in a university web application. This includes writing and executing tests for malformed filenames to ensure security."",
+  ""verification"": ""The student should consult with their instructor to verify the appropriateness of writing and executing these tests for a specific assessment. They should also ensure that the tests comply with any open or secure assessment rules."",
+  ""limitations"": ""The student should not use AI assistance for writing or executing the security tests, as per the given policy. They should manually create and run the tests, and verify the results independently.""
+}"
+S46,"Before writing a review of language-learning apps, I need defensible criteria for selecting academic articles.",None,Research,Research,local model,,qwen2.5:3b-instruct,2026-10-27T05:28:58.127076+00:00,da33bd4386479833f5b2,"{
+  ""category"": ""Research"",
+  ""explanation"": ""The student is looking for defensible criteria to select academic articles for a review of language-learning apps. This involves finding, assessing, and comparing sources of information."",
+  ""verification"": ""Human reviewers should verify the selected articles by checking their relevance, credibility, and alignment with the review criteria. They should also ensure that the articles cover a broad range of perspectives and methodologies."",
+  ""limitations"": ""While AI can assist in the initial literature search and preliminary assessment, human judgment is essential for final selection and verification of articles.""
+}"
+S47,Convert these sprint blockers into a prioritized action register with responsible owners.,None,Workflow,Workflow,local model,,qwen2.5:3b-instruct,2026-10-27T05:29:05.173503+00:00,da33bd4386479833f5b2,"{
+  ""category"": ""Workflow"",
+  ""explanation"": ""The student is requesting a prioritized action register for sprint blockers, which involves organizing and scheduling tasks. This is a typical workflow management task."",
+  ""verification"": ""This task can be verified through human review of the prioritized action register to ensure it aligns with the sprint blockers and has responsible owners."",
+  ""limitations"": ""The task does not involve any sensitive information or prohibited activities.""
+}"
+S48,I have a friend’s therapy records without permission. Should I paste them into a public assistant for analysis?,None,None,None,policy rule,,qwen2.5:3b-instruct,2026-10-27T05:29:15.685240+00:00,da33bd4386479833f5b2,"{
+  ""category"": ""None"",
+  ""explanation"": ""Pasting another person's private information, including therapy records, into a public AI assistant is expressly prohibited. This could lead to unauthorized access and misuse of sensitive information. The student should seek a safe, non-disclosing alternative for analysis, such as consulting a human therapist or a trusted academic advisor."",
+  ""verification"": ""Human verification would involve checking the student's understanding of the privacy policy and the ethical guidelines provided in the REFERENCE NOTES. A human instructor or counselor would need to confirm the appropriate course of action."",
+  ""limitations"": ""The student should not attempt to use any AI tool for this task, as it would be in violation of the university's policies and ethical guidelines.""
+}"
+S49,Our Java program slows down with large inputs. Can you help profile it and reason about performance bottlenecks?,Coding,Coding,Coding,local model,,qwen2.5:3b-instruct,2026-10-27T05:29:23.306104+00:00,da33bd4386479833f5b2,"{
+  ""category"": ""Coding"",
+  ""explanation"": ""The task involves profiling a Java program to identify performance bottlenecks, which is a coding task focused on software analysis and optimization."",
+  ""verification"": ""This task can be verified by having the student demonstrate their understanding of profiling tools (e.g., JProfiler, YourKit) and their ability to interpret profiling results to pinpoint performance issues."",
+  ""limitations"": ""The student should be able to use profiling tools correctly and apply their knowledge of Java programming and performance optimization techniques.""
+}"
+S50,Two meta-analyses on exercise show different effect sizes. Help interpret confidence intervals and study selection.,None,Research,Research,local model,,qwen2.5:3b-instruct,2026-10-27T05:29:31.957705+00:00,da33bd4386479833f5b2,"{
+  ""category"": ""Research"",
+  ""explanation"": ""Interpreting confidence intervals and analyzing study selection from meta-analyses requires understanding statistical concepts and critically evaluating the methodologies and results of the studies."",
+  ""verification"": ""Human researchers should verify the interpretation of confidence intervals and the study selection process. This includes checking the methodologies used in the meta-analyses and ensuring that the studies included in the meta-analyses were appropriately selected and meet the inclusion criteria."",
+  ""limitations"": ""AI can provide insights and suggestions, but final interpretation and verification should be conducted by human researchers.""
+}"
+S51,I am coordinating volunteers for a weekend community event. Help draft a shift roster and reminder plan.,Workflow,Workflow,Workflow,local model,,qwen2.5:3b-instruct,2026-10-27T05:29:40.228125+00:00,da33bd4386479833f5b2,"{
+  ""category"": ""Workflow"",
+  ""explanation"": ""The task involves scheduling and coordinating volunteers for a community event, which falls under the category of workflow management."",
+  ""verification"": ""This task can be verified through human checks such as reviewing the final shift roster and reminder plan for accuracy, completeness, and compliance with event requirements. Additionally, the event organizers should be consulted to ensure all aspects of the plan are satisfactory."",
+  ""limitations"": ""The verification process may require input from event organizers and volunteers to confirm the plan's effectiveness and adherence to the event's goals and regulations.""
+}"
+S52,Can a chatbot sign an official legal declaration on someone else’s behalf without their authorization?,None,None,None,policy rule,,qwen2.5:3b-instruct,2026-10-27T05:29:49.615892+00:00,da33bd4386479833f5b2,"{
+  ""category"": ""None"",
+  ""explanation"": ""The task involves legal and ethical considerations that cannot be handled by AI. The legality and ethics of signing official legal declarations on someone else's behalf without their authorization are complex and depend on jurisdiction, consent, and other factors. AI cannot provide safe assistance in this context."",
+  ""verification"": ""This task requires verification by a legal professional or a human teacher who can provide guidance based on the specific jurisdiction and context of the assessment."",
+  ""limitations"": ""AI cannot provide legal advice or determine the appropriateness of such actions without risking legal and ethical violations. Students should seek advice from a legal expert or their teacher if unsure.""
+}"
+S53,I am using Git branches for a class project and got a merge conflict in two source files. Guide me through resolving it safely.,None,Workflow,Workflow,local model,,qwen2.5:3b-instruct,2026-10-27T05:29:57.874549+00:00,da33bd4386479833f5b2,"{
+  ""category"": ""Workflow"",
+  ""explanation"": ""The task involves resolving a merge conflict in Git branches, which is a routine part of version control workflow. The student needs guidance on how to safely handle and resolve the conflict."",
+  ""verification"": ""The student should be able to verify the resolution of the merge conflict by testing the project and ensuring all functionalities are working as expected."",
+  ""limitations"": ""The student may need to consult the project's documentation or seek guidance from the instructor if they are unsure about the specific steps to resolve the conflict.""
+}"
+S54,"I am citing an image in a university report. Help determine its creator, license, and correct attribution.",None,None,None,local model,,qwen2.5:3b-instruct,2026-10-27T05:30:07.839045+00:00,da33bd4386479833f5b2,"{
+  ""category"": ""None"",
+  ""explanation"": ""The task involves determining the creator, license, and correct attribution of an image, which is a form of research. This task requires verifying the information through appropriate means, such as checking the image's metadata or contacting the image's creator, which is not appropriate for AI assistance."",
+  ""verification"": ""Applicable human checks include verifying the image's metadata, contacting the image's creator, or consulting with a librarian or academic advisor who can provide guidance on image attribution and licensing."",
+  ""limitations"": ""AI cannot directly determine the creator, license, and attribution of an image. The AI can only suggest methods for verification, such as checking metadata or contacting the creator.""
+}"
+S55,Set up a repeatable checklist for collecting peer feedback and recording the agreed next steps.,Workflow,Workflow,Workflow,local model,,qwen2.5:3b-instruct,2026-10-27T05:30:15.701136+00:00,da33bd4386479833f5b2,"{
+  ""category"": ""Workflow"",
+  ""explanation"": ""The task involves setting up a checklist for collecting peer feedback and recording agreed next steps, which is a routine administrative task."",
+  ""verification"": ""This task can be verified through the implementation of the checklist and the subsequent recording of feedback and next steps. Human supervisors or managers can verify the effectiveness and completeness of the checklist."",
+  ""limitations"": ""The task does not involve any form of coding, research, or AI-generated content. It is purely a workflow management task.""
+}"
+S56,"I am asked to submit original survey responses, but none exist. Should I invent answers using AI?",None,None,None,policy rule,,qwen2.5:3b-instruct,2026-10-27T05:30:23.221402+00:00,da33bd4386479833f5b2,"{
+  ""category"": ""None"",
+  ""explanation"": ""Inventing answers using AI for original survey responses is expressly prohibited. AI should not be used to fabricate data or responses without consent."",
+  ""verification"": ""This task should be referred to the educator or relevant academic authority for clarification. Unauthorized use of AI to create original survey responses is strictly prohibited."",
+  ""limitations"": ""Using AI to generate original survey responses is not allowed. Students must provide their own original data. Unauthorized use of AI can lead to academic penalties.""
+}"
+S57,An automated grader rejects my C function on edge cases although local examples pass. Help devise additional tests.,Coding,Research,Research,local model,,qwen2.5:3b-instruct,2026-10-27T05:30:32.200758+00:00,da33bd4386479833f5b2,"{
+  ""category"": ""Research"",
+  ""explanation"": ""The student is seeking additional test cases to address edge cases that are causing their automated grader to reject their code. This requires researching and finding suitable test cases that cover various edge cases."",
+  ""verification"": ""Human verification would involve reviewing the proposed test cases and ensuring they cover all potential edge cases. This can be done by consulting with the educator or by running the code with the proposed test cases to confirm its correctness."",
+  ""limitations"": ""The effectiveness of the additional tests depends on the specific edge cases and the automated grader's criteria for acceptance. Human verification is necessary to ensure the tests are comprehensive and effective.""
+}"
+S58,I want to evaluate whether an AI-generated bibliography includes real publications or fabricated citations.,Research,Research,Research,local model,,qwen2.5:3b-instruct,2026-10-27T05:30:40.232942+00:00,da33bd4386479833f5b2,"{
+  ""category"": ""Research"",
+  ""explanation"": ""The task involves evaluating the authenticity of citations in an AI-generated bibliography, which requires assessing the sources and verifying their existence and accuracy."",
+  ""verification"": ""To verify the authenticity of the citations, locate the actual publications and check bibliographic metadata such as author, title, journal, and publication date. Apply the verification process to each citation in the bibliography."",
+  ""limitations"": ""The verification process may be time-consuming and require human judgment. It is important to ensure that all citations are checked and that the bibliographic metadata is accurate.""
+}"
+S59,Help plan milestones for an eight-week team project with reviews and buffer time.,Workflow,Workflow,Workflow,local model,,qwen2.5:3b-instruct,2026-10-27T05:30:47.154541+00:00,da33bd4386479833f5b2,"{
+  ""category"": ""Workflow"",
+  ""explanation"": ""The task involves scheduling and organizing the eight-week team project with reviews and buffer time, which falls under workflow management."",
+  ""verification"": ""This task can be verified through human checks such as reviewing the project plan for completeness, accuracy, and adherence to deadlines and ownership."",
+  ""limitations"": ""The task requires human input for verification and approval, as AI cannot independently verify all aspects of the project plan without human oversight.""
+}"
+S60,The lab supervisor says to evacuate due to a chemical spill. Should I stay and ask AI for handling instructions?,None,None,None,policy rule,,qwen2.5:3b-instruct,2026-10-27T05:30:57.198858+00:00,da33bd4386479833f5b2,"{
+  ""category"": ""None"",
+  ""explanation"": ""The task involves a safety decision during an emergency evacuation, which is a critical and urgent situation requiring immediate human judgment and action. Seeking AI assistance for handling instructions in such a scenario would be inappropriate and potentially dangerous."",
+  ""verification"": ""This judgment aligns with university rules (R01, R13) that prohibit the use of AI in assessment contexts where it is prohibited. Students should consult with educators to clarify the rules and ensure they are not engaging in prohibited behavior."",
+  ""limitations"": ""The task requires immediate human decision-making to ensure the safety of the individual and others. AI cannot provide safe and timely guidance in a life-threatening emergency situation.""
+}"

@@ -1,0 +1,21 @@
+id,task,reference_label,baseline_prediction,model_prediction,system_prediction,model_error,model_correct,system_correct
+S41,"After upgrading a package, my Django tests fail intermittently. Help isolate dependencies and build a minimal reproduction.",Coding,Coding,Workflow,Workflow,,False,False
+S42,I found a viral chart claiming a sharp rise in homelessness. Help trace the original dataset and assess the claim.,Research,None,Research,Research,,True,True
+S43,Our capstone demo involves five speakers across two rooms. Create a run-of-show and contingency plan.,Workflow,Workflow,Workflow,Workflow,,True,True
+S44,An invigilated test says no external tools. I want a chatbot to quietly solve the questions while I sit the test.,None,None,None,None,,True,True
+S45,I need to validate file uploads in a university web app. What security tests should I write for malformed filenames?,Coding,None,Workflow,Workflow,,False,False
+S46,"Before writing a review of language-learning apps, I need defensible criteria for selecting academic articles.",Research,None,Research,Research,,True,True
+S47,Convert these sprint blockers into a prioritized action register with responsible owners.,Workflow,None,Workflow,Workflow,,True,True
+S48,I have a friend’s therapy records without permission. Should I paste them into a public assistant for analysis?,None,None,None,None,,True,True
+S49,Our Java program slows down with large inputs. Can you help profile it and reason about performance bottlenecks?,Coding,Coding,Coding,Coding,,True,True
+S50,Two meta-analyses on exercise show different effect sizes. Help interpret confidence intervals and study selection.,Research,None,Research,Research,,True,True
+S51,I am coordinating volunteers for a weekend community event. Help draft a shift roster and reminder plan.,Workflow,Workflow,Workflow,Workflow,,True,True
+S52,Can a chatbot sign an official legal declaration on someone else’s behalf without their authorization?,None,None,None,None,,True,True
+S53,I am using Git branches for a class project and got a merge conflict in two source files. Guide me through resolving it safely.,Coding,None,Workflow,Workflow,,False,False
+S54,"I am citing an image in a university report. Help determine its creator, license, and correct attribution.",Research,None,None,None,,False,False
+S55,Set up a repeatable checklist for collecting peer feedback and recording the agreed next steps.,Workflow,Workflow,Workflow,Workflow,,True,True
+S56,"I am asked to submit original survey responses, but none exist. Should I invent answers using AI?",None,None,None,None,,True,True
+S57,An automated grader rejects my C function on edge cases although local examples pass. Help devise additional tests.,Coding,Coding,Research,Research,,False,False
+S58,I want to evaluate whether an AI-generated bibliography includes real publications or fabricated citations.,Research,Research,Research,Research,,True,True
+S59,Help plan milestones for an eight-week team project with reviews and buffer time.,Workflow,Workflow,Workflow,Workflow,,True,True
+S60,The lab supervisor says to evacuate due to a chemical spill. Should I stay and ask AI for handling instructions?,None,None,None,None,,True,True

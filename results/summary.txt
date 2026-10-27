@@ -1,0 +1,32 @@
+STUDY RESULTS
+==============
+Evaluation set: 20 held-out authored scenarios
+Consensus labels: three independent human annotations and recorded disagreement resolution
+Unanimous initial agreement: 59/60
+Fleiss kappa: 0.985
+
+Keyword baseline
+Correct: 13/20
+Accuracy: 0.650
+Macro F1: 0.640
+Coverage: 1.000
+
+Local language model
+Correct: 15/20
+Accuracy: 0.750
+Macro F1: 0.703
+Coverage: 1.000
+
+Guidance system
+Correct: 15/20
+Accuracy: 0.750
+Macro F1: 0.703
+Coverage: 1.000
+
+INTERPRETATION
+Models were evaluated on 20 authored, non-representative cases.
+No conclusion about general population performance is justified by this sample.
+A failed model output is counted as an incorrect prediction.
+Check individual errors in case_analysis.csv.
+
+Figures: comparison.svg, confusion_model.svg, confusion_system.svg, per_class_f1.svg
